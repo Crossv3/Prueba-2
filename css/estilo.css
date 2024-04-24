@@ -32,41 +32,40 @@ nav a:hover {
 
 main {
     text-align: center;
-    /* Asegura que todo el contenido de main esté centrado */
+    
     margin: 80px 80px 180px;
 }
 
 .index {
     display: flex;
-    justify-content: center; /* Alinea los divs hijos horizontalmente al centro */
-    flex-wrap: wrap; /* Permite que los divs se envuelvan en varias líneas según el ancho de la pantalla */
-    align-items: center; /* Alinea los divs hijos verticalmente al centro */
+    justify-content: center; 
+    flex-wrap: wrap; 
+    align-items: center; 
 }
 
 .index div {
     margin: 10px;
-    width: 400px; /* Ancho fijo para cada div que contiene una imagen */
-    text-align: center; /* Centra el texto y los enlaces bajo las imágenes */
+    width: 400px; 
+    text-align: center;
     display: flex;
-    flex-direction: column; /* Organiza el contenido del div en una columna (imagen sobre el texto) */
-    justify-content: center; /* Centra el contenido de la columna verticalmente */
-    align-items: center; /* Centra el contenido de la columna horizontalmente */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .index img {
-    width: 300px; /* Ancho fijo para las imágenes */
-    height: auto; /* Altura automática para mantener la proporción de las imágenes */
+    width: 300px; 
+    height: auto; 
 }
 
 
 .index a {
     color: #6a994e;
-    /* Color de enlace para hacerlo coherente con el tema del encabezado */
+    
     font-weight: bold;
-    /* Hace el texto de los enlaces más notorio */
+    
 }
 
-/* Estilos para el pie de página */
 footer {
     text-align: center;
     background-color: #6a994e;
@@ -118,9 +117,7 @@ th {
     height: 300px;
     overflow: hidden;
     display: block;
-    /* Esto es para que funcione el margin correctamente */
     border: 1px solid #000;
-    /* Opcional: agrega un borde para cada contenedor */
 }
 
 .images-gallery img {
@@ -128,12 +125,8 @@ th {
     height: 300px;
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
-    /* Efecto suave de transformación */
 }
 
 .images-gallery img:hover {
-    transform: scale(1.1);
-    /* Efecto de zoom al pasar el mouse */
-    /* transform: rotate(5deg); */
-    /* Opcional: rotar la imagen al pasar el mouse */
+    transform: scale(1.1); 
 }
